@@ -1,0 +1,21 @@
+# Use the main port in the builder for your self hosting URL, e.g. localhost:10000
+MAIN_PORT=10000
+
+# Use this password when configuring your self hosting settings
+# This should be updated
+HOSTING_KEY=
+
+# This section contains all secrets pertaining to the system
+# These should be updated
+JWT_SECRET=TaakoSecret
+MINIO_ACCESS_KEY=CloudAccess
+MINIO_SECRET_KEY=CloudAccess
+COUCH_DB_PASSWORD=StormPass
+COUCH_DB_USER=NewtUser
+
+# This section contains variables that do not need to be altered under normal circumstances
+APP_PORT=4002
+WORKER_PORT=4003
+MINIO_PORT=4004
+COUCH_DB_PORT=4005
+BUDIBASE_ENVIRONMENT=DEVELOPMENT
